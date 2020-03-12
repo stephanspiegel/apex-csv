@@ -127,7 +127,7 @@ private class CsvWriterTest
             .Build();
         String expected = '1.12,74.57';
         // Then
-        System.AssertEquals(expected, actual, 'CsvWriter should add date values in the correct format.');
+        System.AssertEquals(expected, actual, 'CsvWriter should add decimal values in the correct format.');
 
     }
     @isTest
